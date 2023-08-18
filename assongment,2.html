@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>assingmen-02</title>
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">                  
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./assingment,2.css">
+
+    <!-- Bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+</head>
+<body>
+    <!-- let divide page into two 1)wallpaper. 2)quick search -->
+
+
+    <!-- 1) wallpaper div -->
+    <div class="container-fluid back-img" style="margin-bottom: -178px;" > 
+
+        <!-- let divide wallpaper div into 4 div containing different rows -->
+
+
+
+        <!-- 1) login ,creat button -->
+        <div class="row text-end pt-4 login-singup-row">
+
+            <div class="col-7"></div>
+            <div class="col-2 text-end">
+                <a href="#" class="loginc">Login</a>
+            </div>
+            <div class="col-3 text-start">
+                <a href="#" class="Creatacc px-2 py-2">Creat an Account</a>
+            </div>
+        
+        </div>
+
+        <!-- 2) Logo -->
+        <div class="row mt-5 pt-4 mx-auto text-center">
+
+            <div class="col-12">
+                <p class=" px-4 py-2 logoc">e!</p>
+            </div>
+
+        </div>
+
+
+       </div>
+
+        <!-- 3) Page Title  -->
+        <div class="row pt-4 text-center">
+            <div class="col-12">
+                <p class="restaurant-title">Find the best restaurants, cafés, and bars</p>
+
+            </div>
+        </div>
+
+        <!-- 4)dropdown & search bar -->
+        <div class="row pt-4 mx-auto my-auto text-center search-bar-row">
+            <div class="col-6">
+                <div class="locationselector">
+                    <select class="locationdropdown" style="padding-left: 50px;padding-right: 46px;margin-left: 280px;margin-bottom: 0px;margin-top: 1px; border-radius: 0%;padding-bottom: 5px;padding-top: 5px;color: #636F88; border: 0%; border-top-style: solid;border-right-width: 0px;border-right-style: solid;border-left-width: 0px;border-left-style: solid; background-color: white;">
+                        <option disabled select >Please type a location</option>
+                        <option>Sarjapur Road</option>
+                        <option>Bengaluru HSR Layout</option>
+                        <option>Bengaluru Kormangala</option>
+                        <option>Bengaluru Jay Nagar</option>
+                        <option>Bengaluru</option>
+                    </select>
+                </div>                
+            </div>
+            <div class="col-6 restaurantselector" style="padding-right: 300px;">
+                <div class="">
+                    <div class="input-group flex-nowrap" style="border-radius: 0%;">
+                        <span style="border-radius: 0%;border-left-width: 0px;border-left-style: solid;border-right-width: 0px;border-right-style: solid; background-color: white;"  class="input-group-text" id="addon-wrapping"><i style="color: #74819E;" class="bi bi-search"></i></span>
+                        <input type="text" class="form-control" placeholder="Search for restaurants"  style="border-radius: 0%; color: #74819E; margin-left: 0px;border-left-width: 0px;border-left-style: solid;">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+            <!-- quick search title  -->
+
+            <div class="quickpara">
+            <div class="quicksearchcss">
+                <h1>Quick Searches</h1>
+            </div>
+            <div class="paracss">
+                <p>Discover restaurants by type of meal</p>
+            </div>
+         </div>
+
+
+
+
+
+
+
+         <!-- quick search boxes -->
+
+ <div class="container">
+    <div class="d-flex"> 
+
+            <!-- break fast box div -->
+        <div class=" d-flex fullbox ">
+            <div class="l-box leftboxcss">
+                <img src="./ass..2images/breakfast.png" alt="breakfast" class="img-fluid qckimg" style="object-fit: cover; height: 150px; width: 260px; margin-right: 41px;">
+                </div>
+                <div class="r-box rightboxcss">
+                <h4 style="font-size: 18px; color: #192F60;padding-left: 23px;padding-top: 16px;">Breakfast</h4>
+                <p style="font-size: 14px; color: #8C96AB; padding-left: 23px;">Start your day with exclusive breakfast options</p>
+            </div>     
+        </div>
+
+               <!-- Lunch box div -->
+            <div class=" d-flex fullbox" style="margin-left: 50px;">
+                <div class="l-box leftboxcss">
+                    <img src="./ass..2images/lunch.png" alt="breakfast" class="img-fluid qckimg" style="object-fit: cover; height: 150px; width: 260px; margin-right: 41px;">
+                    </div>
+                    <div class="r-box rightboxcss">
+                    <h4 style="font-size: 18px; color: #192F60;padding-left: 23px;padding-top: 16px;">Lunch</h4>
+                    <p style="font-size: 14px; color: #8C96AB; padding-left: 23px;">Start your day with exclusive breakfast options</p>
+                </div>     
+            </div>
+        
+
+                 <!-- Snacks box div -->
+                 <div class=" d-flex fullbox" style="margin-left: 50px;">
+                    <div class="l-box leftboxcss">
+                        <img src="./ass..2images/snacks.png" alt="breakfast" class="img-fluid qckimg" style="object-fit: cover; height: 150px; width: 260px; margin-right: 41px;">
+                        </div>
+                        <div class="r-box rightboxcss">
+                        <h4 style="font-size: 18px; color: #192F60;padding-left: 23px;padding-top: 16px;">Snacks</h4>
+                        <p style="font-size: 14px; color: #8C96AB; padding-left: 23px;">Start your day with exclusive breakfast options</p>
+                    </div>     
+                </div>
+        </div>
+    </div>
+
+
+
+
+     </div>
+
+</div>
+
+
+<!-- second part of quick search div boxes -->
+
+<div class="container">
+    <div class="d-flex"> 
+            <!-- Dinner box div -->
+        <div class=" d-flex fullbox ">
+            <div class="l-box leftboxcss">
+                <img src="./ass..2images/dinner.png" alt="breakfast" class="img-fluid qckimg" style="object-fit: cover; height: 150px; width: 260px; margin-right: 41px;">
+                </div>
+                <div class="r-box rightboxcss">
+                <h4 style="font-size: 18px; color: #192F60;padding-left: 23px;padding-top: 16px;">Dinner</h4>
+                <p style="font-size: 14px; color: #8C96AB; padding-left: 23px;">Start your day with exclusive breakfast options</p>
+            </div>     
+        </div>
+
+               <!-- Drinks box div -->
+            <div class=" d-flex fullbox" style="margin-left: 50px;">
+                <div class="l-box leftboxcss">
+                    <img src="./ass..2images/drinks.png" alt="breakfast" class="img-fluid qckimg" style="object-fit: cover; height: 150px; width: 260px; margin-right: 41px;">
+                    </div>
+                    <div class="r-box rightboxcss">
+                    <h4 style="font-size: 18px; color: #192F60;padding-left: 23px;padding-top: 16px;">Drinks</h4>
+                    <p style="font-size: 14px; color: #8C96AB; padding-left: 23px;">Start your day with exclusive breakfast options</p>
+                </div>     
+            </div>
+        
+
+                 <!-- Nightlife box div -->
+                 <div class=" d-flex fullbox" style="margin-left: 50px;">
+                    <div class="l-box leftboxcss">
+                        <img src="./ass..2images/nightlife.png" alt="breakfast" class="img-fluid qckimg" style="object-fit: cover; height: 150px; width: 260px; margin-right: 41px;">
+                        </div>
+                        <div class="r-box rightboxcss">
+                        <h4 style="font-size: 18px; color: #192F60;padding-left: 23px;padding-top: 16px;">Nightlife</h4>
+                        <p style="font-size: 14px; color: #8C96AB; padding-left: 23px;">Start your day with exclusive breakfast options</p>
+                    </div>     
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+     </div>
+
+</div>
+
+
+
+
+
+        
+
+    
+    
+</body>
+</html>

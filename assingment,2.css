@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+
+}
+
+body{
+    background-color: #FBFBFB;
+    height: 1080px;
+}
+
+.back-img{ background-image: linear-gradient(to bottom, rgb(157,14,14,0),#4F0707),url(./ass..2images/backgroundimage.png);
+    height: 480px;
+}
+
+.loginc,.Creatacc{
+
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+
+
+.loginc:hover,.Creatacc:hover{
+    color: white;
+}
+
+.Creatacc{
+
+border: 2px solid white;
+border-radius: 3px;
+}
+
+.logoc{
+    color: #EB2929;
+    background-color: #FFFFFF;
+    display: inline;
+    border-radius: 50%;
+    font-size:70px;
+    font-weight: 600;
+    border:1px #707070;
+}
+
+.restaurant-title{
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: -3rem;
+}
+
+.search-bar-row{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.quicksearchcss{
+   color: #192F60;
+   font-size: 30px;
+}
+
+.paracss{
+    color: #8C96AB;
+    font-size: 18px;
+}
+
+.quickpara{
+    padding-left: 113px;
+    padding-top: 113px;
+}
+
+.leftboxcss{
+
+}
+
+.rightboxcss{
+}
+
+.fullbox{
+border: 0px solid black;margin-right: 798px; width: 360px; height: 150px; box-shadow: 4px 6px 8px #00000029; margin-left: -12px; margin-top: 38px; margin-right: auto;
+}
+
